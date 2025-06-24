@@ -7,14 +7,16 @@ let package = Package(
     products: [
         .library(
             name: "MRZParserKit",
-            targets: ["MRZParser"]),
+            targets: ["MRZParserKit"]),
     ],
     targets: [
         .target(
-            name: "MRZParser",
-            dependencies: []),
+            name: "MRZParserKit",
+            dependencies: [],
+            path: "Sources/MRZParserKit"
+        ),
         .testTarget(
             name: "MRZParserTests",
-            dependencies: ["MRZParser"]),
+            dependencies: ["MRZParserKit"]),
     ]
 )
