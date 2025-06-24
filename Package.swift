@@ -6,7 +6,7 @@ let package = Package(
     name: "MRZParser",
     products: [
         .library(
-            name: "MRZParser",
+            name: "MRZParserKit",
             targets: ["MRZParser"]),
     ],
     targets: [
